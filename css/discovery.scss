@@ -1,0 +1,40 @@
+@media only screen and (max-width: 450px) {
+	.discovPics{
+		width: 80% !important;}
+}
+
+$green : #2E4E31;
+$fontFamily : "Lucida Sans Unicode","Courier New","Comic Sans MS";
+
+#dicoH1{
+	color:$green;
+	font-family: $fontFamily;
+	text-align: center;
+	box-shadow: 5px 5px 10px 5px $green;
+}
+
+#mainDIVdisco{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.discovPics{
+	width: 25%;
+	height: auto;
+	border-radius: 40px;
+	opacity: 0.5;
+	margin: 2%;	// box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+ 	filter: blur(5px);
+ 	transition: transform 1s;
+	cursor: url(../img/smiley.cur), auto; 
+// auto damit der browser ein fallback hat
+}
+
+
+.discovPics:hover{
+	opacity: 1;
+	filter: none;
+	transform: scale(1.5);
+}

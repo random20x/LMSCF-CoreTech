@@ -1,0 +1,64 @@
+#dicoH1 {
+  color: #2E4E31;
+  font-family: "Lucida Sans Unicode", "Courier New", "Comic Sans MS";
+  text-align: center;
+  box-shadow: 5px 5px 10px 5px #2E4E31; }
+
+.infocontent {
+  display: flex;
+  flex-wrap: wrap; }
+
+.infosIMG {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 3%;
+  padding-top: 3%; }
+
+.infosIMG2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 3%;
+  padding-top: 3%; }
+
+.infosIMG2 img {
+  width: 45%;
+  height: 400px; }
+
+.infobox {
+  width: 30%;
+  height: 350px;
+  background-image: linear-gradient(white, #749F0F); }
+
+.infobox p, h1, ul, li {
+  padding: 2%; }
+
+.infobox2 {
+  width: 45%;
+  height: 400px;
+  background-image: linear-gradient(white, #749F0F); }
+
+.infobox2 p, h1 {
+  padding: 1%; }
+
+.infosIMG img {
+  width: 30%;
+  height: 350px; }
+
+.boxtext {
+  padding: 2%; }
+
+.boxtext li {
+  list-style: none; }
+
+.infosHeader {
+  color: white;
+  padding-bottom: 2%;
+  padding-left: 2%; }
+
+#nightInput {
+  margin-top: 5%;
+  padding-left: 2%; }
+
+/*# sourceMappingURL=infos.css.map */

@@ -1,0 +1,49 @@
+RSpic = `[{
+	"title":"Temple on Water",
+	"fileName": "RSbali.jpg"
+},{
+	"title":"Temple and Vulcan",
+	"fileName": "RSbergV.jpg"
+},{
+	"title":"Balinese Culture",
+	"fileName": "RSculture.jpg"
+},{
+	"title":"Diving in Bali",
+	"fileName": "RSdivingH.jpg"
+},{	
+	"title":"Nasi Goreng",
+	"fileName": "RSessen.jpg"
+},{	
+	"title":"Rice Field",
+	"fileName": "RSrice.jpg"
+},{	
+	"title":"Rice Field 2",
+	"fileName": "RSrice2H.jpg"
+},{	
+	"title":"Rice Field 3",
+	"fileName": "RSrice3.jpg"
+},{	
+	"title":"Rice Field 4",
+	"fileName": "RSriceH.jpg"
+},{	
+	"title":"Beach",
+	"fileName": "RSstrandV.jpg"
+},{	
+	"title":"Sunset",
+	"fileName": "RSsunPalmH.jpg"
+},{	
+	"title":"Temple",
+	"fileName": "RStempel.jpg"
+},{	
+	"title":"Temple 2",
+	"fileName": "RStempel2.jpg"
+},{	
+	"title":"Temple 3",
+	"fileName": "RStempel3.jpg"
+},{
+	"title":"Turtle",
+	"fileName": "RSturleH.jpg"
+},{
+	"title":"Vulcan",
+	"fileName": "RSvulkan.jpg"
+}]`;

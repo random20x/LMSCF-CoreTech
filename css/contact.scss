@@ -1,0 +1,113 @@
+
+
+$green : #2E4E31;
+$fontFamily : "Lucida Sans Unicode","Courier New","Comic Sans MS";
+
+*{
+   box-sizing: border-box;
+} 
+
+#mainDIVcontact{
+	color: white;
+	font-family: $fontFamily;
+	font-weight: bold;
+  margin-bottom:10%;
+
+}
+
+#contactH1{
+  color:$green;
+  font-family: $fontFamily;
+  text-align: center;
+  box-shadow: 5px 5px 10px 5px $green;
+  margin-bottom:5%;
+}
+
+
+.formularDivs{
+	margin-top: 1%;
+}
+
+p {
+  margin: 0;
+  margin-top: 1%;
+  border-radius: 35px;
+  // font-weight: bold;
+}
+
+form {
+  margin: 3%;
+  text-align: center;
+  // margin-left: 5%;   
+}
+
+textarea, input {
+  padding-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 35px;
+  width: 40%;
+  transition: width 2s ease-in-out; 
+
+}
+
+textarea{
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 1%;
+  transition: width 2s ease-in-out; 
+}
+
+textarea:focus , input:focus{
+  width: 60%; 
+}
+
+#button {
+  font-size: 0.9em;
+  font-family: $fontFamily;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 35px;
+}
+
+#button:hover {
+  cursor: url(../img/smiley.cur), auto;
+  background-image: linear-gradient(white, $green);
+  border-color: $green;
+  color: black; 
+}
+
+
+
+#infoflex{
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#google{
+  width: 40%;
+}
+
+#contactinfo{
+  width: 60%;
+  height: 400px;
+}
+
+#contactinfo span{
+  color:white;
+}
+
+#contactinfo h1{
+  color:white;
+}
+
+#contactinfo p, a{
+  font-size: 1.2rem;
+  color:white;
+  text-decoration: none;
+}
+
+#contactinfo img{
+  margin-top: 2%;
+}

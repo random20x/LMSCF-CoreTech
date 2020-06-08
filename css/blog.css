@@ -1,0 +1,43 @@
+#mainDIVblog {
+  margin-bottom: 10%;
+  height: 30em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+#EN, #DE, #FR {
+  margin-top: 2%; }
+
+#mainDIVblog h1 {
+  color: #2E4E31;
+  font-family: "Lucida Sans Unicode", "Courier New", "Comic Sans MS";
+  text-align: center;
+  height: 10%;
+  box-shadow: 5px 5px 10px 5px #2E4E31; }
+
+ul {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #2E4E31;
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+#mainDIVblog a {
+  text-decoration: none; }
+
+li, a {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+#blogBanner {
+  width: 95%;
+  text-align: center;
+  height: 30%;
+  overflow: hidden;
+  margin-top: 2%; }
+
+#blogBanner img {
+  margin-top: -18%; }
+
+/*# sourceMappingURL=blog.css.map */

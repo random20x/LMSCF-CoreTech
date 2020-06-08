@@ -1,0 +1,129 @@
+@media only screen and (max-width: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; }
+
+  .logo img {
+    display: none !important; }
+
+  #headline {
+    font-size: 0.8rem !important;
+    width: 100% !important; } }
+* {
+  margin: 0; }
+
+body {
+  background-color: black;
+  font-family: "Lucida Sans Unicode", "Courier New", "Comic Sans MS";
+  width: 100%; }
+
+.navigaton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  width: 75%;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: flex-start; }
+
+#headlineIMG {
+  width: 15%; }
+
+#headlineIMG img {
+  width: 80%;
+  height: 80%;
+  background-color: #2E4E31;
+  border-radius: 55%;
+  border: 4px solid black;
+  border: #2E4E31; }
+
+#headline {
+  width: 80%;
+  color: #2E4E31;
+  font-size: 1.3rem;
+  padding-top: 2%; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #2E4E31;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s; }
+
+.sidenav a:hover {
+  color: #f1f1f1; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+.big {
+  color: white;
+  padding-right: 2%; }
+
+.navbar {
+  padding-right: 2%; }
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  border-radius: 70%;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+#footerbar {
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  background-color: black;
+  width: 100%; }
+
+.botline {
+  padding-bottom: 1%; }
+
+#footerbar span {
+  color: #2E4E31;
+  font-size: 1.5rem; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
+.fa-google {
+  background: #dd4b39;
+  color: white; }
+
+.fa-youtube {
+  background: #bb0000;
+  color: white; }
+
+.fa-skype {
+  background: #00aff0;
+  color: white; }
+
+/*# sourceMappingURL=styles.css.map */

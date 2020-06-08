@@ -1,0 +1,50 @@
+$green : #2E4E31;
+$fontFamily : "Lucida Sans Unicode","Courier New","Comic Sans MS";
+
+#mainDIVblog{
+	margin-bottom: 10%;
+	height: 30em;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#EN, #DE, #FR{
+	margin-top: 2%;
+}
+
+#mainDIVblog h1{
+	color:$green;
+	font-family: $fontFamily;
+	text-align: center;
+	height:10%;
+	box-shadow: 5px 5px 10px 5px $green;
+}
+
+ul{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color:$green;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#mainDIVblog a{
+	text-decoration: none;
+}
+
+li, a{
+	color:white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#blogBanner{
+	width: 95%;
+	text-align: center;
+	height: 30%;
+	overflow: hidden;
+	margin-top: 2%;
+}
+#blogBanner img{
+	margin-top: -18%;
+}
